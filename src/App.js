@@ -8,13 +8,9 @@ import team6 from './asseat/team6.jpg'
 
 
 const App = () =>  {
-const data =[
-  {Title:'title1' , Text:'text1' , img: team2},
-  {Title:'title2' , Text:'text2' , img: team3},
-  {Title:'title3' , Text:'text3' , img: team4},
-  {Title:'title4' , Text:'text4' , img: team5},
+const data =[{Title:'title1' , Text:'text1' , img: team2},{Title:'title2' , Text:'text2' , img: team3},{Title:'title3' , Text:'text3' , img: team4},{Title:'title4' , Text:'text4' , img: team5},
   {Title:'title5' , Text:'text5' , img: team6},
-] 
+]
   return (
           <div >
             <Navbar />

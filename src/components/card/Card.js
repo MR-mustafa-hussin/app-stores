@@ -2,6 +2,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Cards = (props) => {
+    const handleClick= () => {
+       console.log(props.Title)
+    }
   return (
 
     <Card style={{ width: '18rem' }}>
@@ -9,9 +12,9 @@ const Cards = (props) => {
       <Card.Body>
         <Card.Title>{props.Title}</Card.Title>
         <Card.Text>
-        {props.Text}
+            {props.Text}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button onClick = {handleClick} variant="primary">شاهد الان</Button>
       </Card.Body>
     </Card>
   );
